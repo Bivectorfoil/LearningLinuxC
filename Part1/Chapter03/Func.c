@@ -19,56 +19,56 @@
 
 int main(void)
 {
-    double pi = 3.1416;
-    printf("sin(pi/2)=%f\nln1=%f\n", sin(pi/2), log(1.0));
-    return 0;
+        double pi = 3.1416;
+        printf("sin(pi/2)=%f\nln1=%f\n", sin(pi/2), log(1.0));
+        return 0;
 }
 
 void newline(void)
 {
-    printf("\n");
+        printf("\n");
 }
 
 void threelines(void)
 {
-    newline();
-    newline();
-    newline();
+        newline();
+        newline();
+        newline();
 }
 
 int main(void)
 {
-    printf("One lines:\n");
-    newline();
-    printf("Another three lines.\n");
-    threelines();
-    return 0;
+        printf("One lines:\n");
+        newline();
+        printf("Another three lines.\n");
+        threelines();
+        return 0;
 }
 
 void print_time(int hour, int minute)
 {
-    printf("%d:%d\n", hour, minute);
+        printf("%d:%d\n", hour, minute);
 }
 
 int main(void)
 {
-    int h = 23, m = 59;
-    print_time(h, m);
-    return 0;
+        int h = 23, m = 59;
+        print_time(h, m);
+        return 0;
 }
 */
 
 
 void increment(int x)
 {
-    x = x + 1;
+        x = x + 1;
 }
 
 int main(void)
 {
-    int i = 1, j = 2;
-    increment(i); /* i now become 2? */
-    printf("i is %d\n", i);
-    increment(j); /* j now become 3? */
-    return 0;
+        int i = 1, j = 2;
+        increment(i); /* i now become 2? */
+        printf("i is %d\n", i);
+        increment(j); /* j now become 3? */
+        return 0;
 }
