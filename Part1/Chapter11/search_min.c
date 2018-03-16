@@ -11,6 +11,7 @@ int search_min()
         while (i < LEN) {
                 if (a[i] < a[point]) {
                         point = i;
+                        printf("point is: %d\n", point);
                 }
                 i++;
         }
